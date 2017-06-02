@@ -4,8 +4,8 @@ import mcpi.block as block
 import math
 import time
 
-#mc = minecraft.Minecraft.create("118.89.102.156")
-mc = minecraft.Minecraft.create()
+mc = minecraft.Minecraft.create("139.224.130.247", name="I_eat_potato")
+#mc = minecraft.Minecraft.create()
 
 bridge = []
 
