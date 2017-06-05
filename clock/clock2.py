@@ -4,7 +4,7 @@ import random
 import time
 from datetime import datetime
 
-mc = minecraft.Minecraft.create()
+mc = minecraft.Minecraft.create("139.224.130.247", name="I_eat_potato")
 pos = mc.player.getTilePos()
 
 

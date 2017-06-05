@@ -14,14 +14,13 @@ https://pillow.readthedocs.org/en/latest/installation.html
 """
 
 import sys
+import mcpi.minecraft as minecraft
+from math import sqrt
+from PIL import Image
+
 sys.path.append("../")
 
-import mcpi.minecraft as minecraft
-mc = minecraft.Minecraft.create() #NOTE - replace "seanybob" with your name
-
-from math import sqrt
-
-from PIL import Image
+mc = minecraft.Minecraft.create("139.224.130.247", name="I_eat_potato") #NOTE - replace "seanybob" with your name
 
 # Possible blocks  in (Name, ID, (RGB1,RGB2,..),Data)
 # RGBs are used to color match.
