@@ -17,11 +17,7 @@ print rows, columns
 for r in range(rows):
     for c in range(columns):
         rgb = rgb_im.getpixel((r, c))
-        print rgb
-        try:
-            mc.setBlock(pos.x + r, pos.y, pos.z + c, Blocks[rgb])
-        except:
-            mc.setBlock(pos.x + r, pos.y, pos.z + c, block.TNT.id)
+        mc.setBlock(pos.x + r, pos.y, pos.z + c, Blocks[rgb])
         time.sleep(0.05)
 
 
