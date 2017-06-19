@@ -7,7 +7,8 @@ import random
 import math
 import time
 
-mc = minecraft.Minecraft.create("139.224.130.247", name="I_eat_potato")
+# mc = minecraft.Minecraft.create("139.224.130.247", name="I_eat_potato")
+mc = minecraft.Minecraft.create()
 mcdrawing = minecraftstuff.MinecraftDrawing(mc)
 
 pos = mc.player.getTilePos()

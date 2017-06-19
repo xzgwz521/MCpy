@@ -20,7 +20,7 @@ from PIL import Image
 
 sys.path.append("../")
 
-mc = minecraft.Minecraft.create("139.224.130.247", name="I_eat_potato") #NOTE - replace "seanybob" with your name
+mc = minecraft.Minecraft.create() #NOTE - replace "seanybob" with your name
 
 # Possible blocks  in (Name, ID, (RGB1,RGB2,..),Data)
 # RGBs are used to color match.
