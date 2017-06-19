@@ -19,5 +19,3 @@ for r in range(rows):
         rgb = rgb_im.getpixel((r, c))
         mc.setBlock(pos.x + r, pos.y, pos.z + c, Blocks[rgb])
         time.sleep(0.05)
-
-
